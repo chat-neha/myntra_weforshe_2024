@@ -14,3 +14,11 @@
 
 ├── 2 csv files
 ├── data cleaning and extraction codes
+
+# Trend Categorisation and Prediction 
+
+As part of the Myntra WeForShe Hackathon, 2024, we developed
+an app that can take in a Gen-Z aesthetic as a search keyword,
+and display relevant clothing items. Tech Stack: Python (Libraries:
+Beautiful Soup, SentenceTransformers, KMeans (from
+scikit-learn)), HTML/CSS/JS, Flask
