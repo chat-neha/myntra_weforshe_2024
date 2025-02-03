@@ -1,0 +1,91 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+main a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+main a:hover {
+    background-color: #555;
+}
+
+main .results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .result-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+main .result-item img {
+    max-width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+main .result-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer #section_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #left div {
+    margin-right: 20px;
+}
+
+footer #left h4, footer #left p {
+    margin: 0;
+}
